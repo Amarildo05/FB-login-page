@@ -1,0 +1,90 @@
+body {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgb(241, 241, 241);
+  padding-top: 8%;
+  padding-bottom: 17%;
+}
+
+img {
+}
+
+.left-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-form {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 380px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(211, 211, 211, 0.959);
+}
+
+#btn-1 {
+  background-color: #0866ff;
+  color: white;
+  width: 380px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 6px;
+  border-width: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+a {
+  text-align: center;
+  color: #0866ff;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+#btn-2 {
+  background-color: #42b72a;
+  color: white;
+  width: 210px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 6px;
+  border-width: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+hr {
+  width: 95%;
+  border-top: 1px solid #dddddd;
+}
+
+.create-page {
+  margin-top: 25px;
+}
+
+#a1 {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bottom-section {
+  background-color: white;
+}
