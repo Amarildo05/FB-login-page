@@ -1,6 +1,8 @@
 body {
-  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   background-color: #f0f2f5;
+  padding: 0;
+  margin: 0;
 }
 
 .top-section {
@@ -8,19 +10,18 @@ body {
   justify-content: center;
   flex-direction: row;
   padding-top: 8%;
-  padding-bottom: 17%;
+  padding-bottom: 12%;
 }
 
 img {
   height: 120px;
   margin: -35px;
 }
-
 h2 {
   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
   font-size: 30px;
   font-weight: normal;
-  line-height: 40px;
+  line-height: 35px;
   width: 530px;
 }
 
@@ -65,7 +66,7 @@ input:focus {
 }
 
 #btn-1 {
-  background-color: #2478ff;
+  background-color: #0866ff;
   color: white;
   width: 400px;
   height: 50px;
@@ -131,4 +132,57 @@ hr {
 
 footer {
   background-color: #fff;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 10%;
+  color: gray;
+}
+
+#ul-1 {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+#lang {
+  font-size: smaller;
+  color: rgb(141, 141, 141);
+}
+
+#plus-btn {
+  text-decoration: none;
+  color: #848489;
+  background-color: #f5f6f7;
+  border: 1px solid #b5babd;
+  border-radius: 2px;
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#hr-bottom {
+  width: 85%;
+  border-top: 1px solid #dddddd;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  margin-left: 50px;
+}
+
+#ul-2 {
+  line-height: 1.4;
+  list-style-type: none;
+}
+
+#list-lines {
+  display: flex;
+  flex-direction: row;
+}
+
+#meta {
+  font-size: 12px;
+  margin-left: 50px;
+  margin-top: 25px;
+  padding-bottom: 20px;
 }
